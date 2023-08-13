@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Palindrome Checker</title>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Palindrome Checker</h1>
+      <h5>Unveiling the Symmetry of Words and Phrases! 🔄✨</h5>
+
+      <blockquote
+        class="custom-blockquote"
+        cite="https://www.merriam-webster.com/dictionary/palindrome"
+      >
+        <p class="quote-content">
+          <span class="quote-term">palindrome</span>
+          <span class="quote-definition">[pal-in-drohm]</span>
+          <span class="quote-pronunciation">noun</span> <br />a word, verse, or
+          sentence (such as <strong>Able was I ere I saw Elba</strong>) or a
+          number (such as <strong>1881</strong>) that reads the same backward or
+          forward
+        </p>
+        <footer class="quote-source">Merriam Webster Dictionary</footer>
+      </blockquote>
+
+      <p>
+        Enter any word or sentence, and watch as we reveal whether it's a
+        palindrome.
+      </p>
+      <div class="row justify-content-center">
+        <form
+          class="justify-content-center"
+          id="palindrome-form"
+          style="text-align: center"
+        >
+          <div class="col">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="word-input"
+                placeholder="Enter a word"
+                required
+                autofocus
+                aria-label="Word input"
+              />
+            </div>
+            <div class="form-group">
+              <button type="button" id="check-button" aria-label="Check">
+                Check
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="result"></div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center">
+        <p>
+          Made with <span style="color: #e25555">&#9829;</span> by
+          <a href="mailto:medamor.9@gmail.com">Mohamed Amor</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+html {
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  height: 100%;
+}
+h1 {
+  margin-bottom: 35px;
+}
+body {
+  font-family: "Bricolage Grotesque", sans-serif !important;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+  margin: auto 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* Center all other elements within the page */
+.container {
+  text-align: center;
+}
+
+#result {
+  height: 40px; /* Set a fixed height that works for your design */
+  overflow: hidden;
+  margin-top: 10px; /* Adjust the margin as needed */
+  font-size: large;
+}
+
+form {
+  max-width: 300px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Bricolage Grotesque", sans-serif !important;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #d1d5db solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+button:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  box-shadow: none;
+}
+
+blockquote {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+  text-align: left;
+  font-family: "EB Garamond", serif;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.custom-blockquote {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f9f9f9;
+  line-height: 1.5;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.quote-content {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.quote-term {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.quote-definition {
+  font-style: italic;
+}
+
+.quote-pronunciation {
+  font-size: 14px;
+}
+
+.quote-source {
+  font-size: 12px;
+  text-align: right;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  color: gray;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.footer .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
