@@ -39,6 +39,10 @@ Palindromes are words, phrases, or sequences that read the same forwards as they
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your web browser.
 
+## Deployment
+
+The Palindrome Checker app is deployed and accessible at: [https://palindrome-purplegem903.vercel.app/](https://palindrome-purplegem903.vercel.app/)
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the application, feel free to submit a pull request. If you encounter any bugs or have suggestions for improvements, please open an issue.
