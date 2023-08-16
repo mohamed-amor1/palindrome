@@ -8,7 +8,6 @@ Welcome to the Palindrome Checker project! This web application allows you to de
 - [Features](#features)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Getting Started](#getting-started)
 - [License](#license)
 
 ## Introduction
@@ -32,11 +31,6 @@ Palindromes are words, phrases, or sequences that read the same forwards as they
 - HTML
 - CSS (Bootstrap)
 - JavaScript
-
-## Getting Started
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
 
 ## Deployment
 
