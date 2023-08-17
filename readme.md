@@ -1,5 +1,7 @@
 # Palindrome Checker
 
+![Palindrome Checker](screenshot.png)
+
 Welcome to the Palindrome Checker project! This web application allows you to determine whether a given word or phrase is a palindrome.
 
 ## Table of Contents
@@ -8,8 +10,6 @@ Welcome to the Palindrome Checker project! This web application allows you to de
 - [Features](#features)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -34,24 +34,9 @@ Palindromes are words, phrases, or sequences that read the same forwards as they
 - CSS (Bootstrap)
 - JavaScript
 
-## Getting Started
-
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-
 ## Deployment
 
 The Palindrome Checker app is deployed and accessible at: [https://palindrome-purplegem903.vercel.app/](https://palindrome-purplegem903.vercel.app/)
-
-## Contributing
-
-Contributions are welcome! If you find any issues or want to enhance the application, feel free to submit a pull request. If you encounter any bugs or have suggestions for improvements, please open an issue.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature/your-feature-name`.
-5. Create a pull request.
 
 ## License
 
