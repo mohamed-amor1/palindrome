@@ -1,5 +1,7 @@
 # Palindrome Checker
 
+![Palindrome Checker](screenshot.png)
+
 Welcome to the Palindrome Checker project! This web application allows you to determine whether a given word or phrase is a palindrome.
 
 ## Table of Contents
